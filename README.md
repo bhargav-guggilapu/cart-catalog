@@ -1,5 +1,5 @@
 # cart-catalog
 
-Developed using HTML, CSS, JAVASCRIPT
+Developed using ANGULAR
 
 LINK TO PAGE --> https://bhargav-guggilapu.github.io/cart-catalog/
