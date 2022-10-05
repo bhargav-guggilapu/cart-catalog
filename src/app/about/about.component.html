@@ -1,0 +1,77 @@
+<div class="center">
+  <div class="container">
+    <h1>Testmonials</h1>
+    <div class="slides" #slider>
+      <div class="slide" >
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            rem aperiam tempore dolor! Ea laudantium deserunt, hic ut debitis
+            saepe modi animi voluptate fugiat accusamus ducimus optio illo
+            sapiente dolore.
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1618721405821-80ebc4b63d26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            rem aperiam tempore dolor! Ea laudantium deserunt, hic ut debitis
+            saepe modi animi voluptate fugiat accusamus ducimus optio illo
+            sapiente dolore.
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1507038732509-8b1a9623223a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            rem aperiam tempore dolor! Ea laudantium deserunt, hic ut debitis
+            saepe modi animi voluptate fugiat accusamus ducimus optio illo
+            sapiente dolore.
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            rem aperiam tempore dolor! Ea laudantium deserunt, hic ut debitis
+            saepe modi animi voluptate fugiat accusamus ducimus optio illo
+            sapiente dolore.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="indicator">
+      <div *ngFor="let count of [0, 1, 2, 3]">
+        <span
+          class="btn"
+          #btn
+          [ngClass]="{ activated: clicked === true && count === 0 }"
+          (click)="onClick(btn, count)"
+        ></span>
+      </div>
+    </div>
+  </div>
+</div>

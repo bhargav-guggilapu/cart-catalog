@@ -1,0 +1,18 @@
+<div class="center">
+  <div
+    *ngFor="let item of items; let i = index"
+    class="container"
+    (click)="onEditItem(i)"
+    #div
+  >
+    <div class="item">
+      <p>{{ item.item }}</p>
+    </div>
+    <div class="item">
+      <p>{{ item.cost }}</p>
+    </div>
+    <div class="item">
+      <p>{{ item.name }}</p>
+    </div>
+  </div>
+</div>

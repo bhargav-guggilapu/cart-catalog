@@ -1,0 +1,81 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  margin-top: 50px;
+  width: 40%;
+  height: 45%;
+  background-color: #9bc2fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container h1 {
+display: flex;
+justify-content: center;
+align-items: center;
+color: #2463c2;
+margin-top: 10px;
+}
+
+.slides {
+  width: 400%;
+  height: 85%;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.slide {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  padding: 30px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  padding: 30px;
+}
+.text p {
+  font-size: 20px;
+}
+
+.indicator {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-left: 30px;
+  border-radius: 15px;
+  background-color: #2463c2;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.active {
+  width: 45px;
+}
+
+.activated {
+  width: 45px;
+}
